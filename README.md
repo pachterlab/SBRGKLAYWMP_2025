@@ -33,8 +33,13 @@ conda activate swarna2025_env
 ```
 
 ---
+## ▶️ 3. Install wompwomp for alluvial plots
+```bash
+pip install git+https://github.com/pachterlab/wompywompy
+```
 
-## 🧠 3. Register the Jupyter Kernel
+
+## 🧠 4. Register the Jupyter Kernel
 
 The `ipykernel` package is already included in the environment.
 Register this environment as a Jupyter kernel:
@@ -47,7 +52,7 @@ You will now see a new kernel inside Jupyter Notebook / JupyterLab.
 
 ---
 
-## 📓 4. Run the Notebooks
+## 📓 5. Run the Notebooks
 
 Launch Jupyter:
 

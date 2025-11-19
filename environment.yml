@@ -185,6 +185,5 @@ dependencies:
       - twine==6.2.0
       - umap-learn==0.5.9.post2
       - urllib3==2.5.0
-      - wompywompy==0.1.0
       - wrapt==1.17.3
 prefix: /home/nikki/miniconda3/envs/swarna2025_env
