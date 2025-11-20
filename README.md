@@ -1,8 +1,8 @@
-# Code to generate figures for Swarna et al. 2025. 
+# Code to generate figures and analyses for Swarna et al. 2025. 
 
-## Data to generate figures
+## Data to generate figures and analyese
 
-Data to generate figures can be accessed at the following DOI: 10.5281/zenodo.17654220
+Data to generate figures and analyses can be accessed at the following DOI: 10.5281/zenodo.17654220
 
 
 ## 📘 **Environment Setup & Notebook Usage**
