@@ -7,7 +7,7 @@ Data to generate figures can be accessed at the following DOI: 10.5281/zenodo.17
 
 ## 📘 **Environment Setup & Notebook Usage**
 
-This project uses a reproducible Conda environment defined in `environment.yml`.
+This project uses a reproducible Conda environment defined in `environment.yaml`.
 Follow the steps below to install the environment and run the notebooks.
 
 ---
@@ -26,7 +26,7 @@ cd SBRGKLAYWMP_2025
 Create the environment from the YAML file:
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yaml
 ```
 
 ---
@@ -72,3 +72,27 @@ jupyter lab
 ```
 
 **Kernel → Change Kernel → Python (swarna2025_env)**
+
+---
+
+## 🧪 6. Run the Simulation Benchmark Experiments
+
+The simulation benchmark scripts are in `benchmark_code/`. After activating
+the environment, run the full five-pattern benchmark with:
+
+```bash
+python benchmark_code/run_final_benchmark.py --run-name simulation_run
+```
+
+This writes the simulated `.h5ad`, method-specific outputs, combined recovery
+CSV, and heatmap into `benchmark_code/results/simulation_run/`.
+
+To run the single-cell versus pseudobulk resolution challenge on the newest
+simulation output:
+
+```bash
+python benchmark_code/evaluate_singlecell_v_pseudobulk.py
+```
+
+Its outputs are saved under the selected run's
+`singlecell_vs_pseudobulk/` directory.
