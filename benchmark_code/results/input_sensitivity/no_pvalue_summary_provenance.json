@@ -1,0 +1,6 @@
+{
+  "previous_run_py_sha256": "0a1ec227395446449405396f01967aad63c8fd202007bd643a849b5e8e2dbad4",
+  "run_py_sha256": "f58a1dcd989611d34e097cf0731bf0f2ccdb06a3384a389d9606ad8b748db716",
+  "change": "Unequal-number recovery with only the Psi p/q gate removed; canonical inference and existing filtered recovery unchanged.",
+  "permutations_reused": true
+}

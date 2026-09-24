@@ -1,0 +1,7 @@
+{
+  "original_runner_sha256": "f58a1dcd989611d34e097cf0731bf0f2ccdb06a3384a389d9606ad8b748db716",
+  "integrated_runner_sha256": "e9185388918c70786b7fbe74c014f8e164d88d01591a909540a9be75f2a9d822",
+  "changes": "Relocated runner, portable paths, CLI, report-only mode. Numerical routines unchanged (AST verified). Existing inference results retained, not rerun.",
+  "omitted_artifacts": "Regenerable h5ad inputs and completion flags. All p/q-value tables, rankings, recovery tables and figures retained.",
+  "manifest_note": "recovery_run_config.json describes the original inference run; source hash keys made relative."
+}

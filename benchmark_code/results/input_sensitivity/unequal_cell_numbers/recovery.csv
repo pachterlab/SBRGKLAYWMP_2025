@@ -1,0 +1,16 @@
+category,recovered,out_of,n_selected,n_eligible,true_genes_passing_psi_pq,true_genes_passing_psi_cutoff,true_genes_eligible,true_genes_top200_without_filter,recall_at_200,recovered_without_pvalue,n_eligible_without_pvalue,n_selected_without_pvalue,condition
+Category 1: CT1,195,200,200,1111,200,200,200,195,0.975,195,3000,200,balanced
+Category 2: CT1 + CT2,188,200,200,1111,200,200,200,188,0.94,188,3000,200,balanced
+Category 3: Housekeeping,200,200,200,395,25,200,200,200,1.0,200,395,200,balanced
+Category 4: StrainA:CT1,195,200,200,1644,200,200,200,195,0.975,195,3000,200,balanced
+Category 5: StrainA:CT1 + StrainB:CT2,200,200,200,1644,200,200,200,200,1.0,200,3000,200,balanced
+Category 1: CT1,105,200,200,801,105,200,105,196,0.525,196,3000,200,mild
+Category 2: CT1 + CT2,135,200,200,801,135,200,135,191,0.675,191,3000,200,mild
+Category 3: Housekeeping,186,200,200,260,200,200,200,0,0.93,186,260,200,mild
+Category 4: StrainA:CT1,155,200,200,1905,163,200,163,172,0.775,172,3000,200,mild
+Category 5: StrainA:CT1 + StrainB:CT2,198,200,200,1905,199,200,199,198,0.99,198,3000,200,mild
+Category 1: CT1,0,200,200,220,0,200,0,177,0.0,177,3000,200,strong
+Category 2: CT1 + CT2,0,200,200,220,0,200,0,192,0.0,192,3000,200,strong
+Category 3: Housekeeping,200,200,200,200,174,200,200,0,1.0,200,200,200,strong
+Category 4: StrainA:CT1,0,200,200,371,0,200,0,104,0.0,104,3000,200,strong
+Category 5: StrainA:CT1 + StrainB:CT2,0,200,200,371,0,200,0,153,0.0,153,3000,200,strong

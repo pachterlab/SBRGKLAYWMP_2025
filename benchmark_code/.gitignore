@@ -1,0 +1,10 @@
+# Simulation data
+*.h5ad
+
+# Regenerable input-sensitivity working data
+results/input_sensitivity_run/
+results/input_sensitivity_rerun/
+results/input_sensitivity/**/*.complete
+
+# Full gene-ranking tables
+results/input_sensitivity/**/*_gene_rankings.csv

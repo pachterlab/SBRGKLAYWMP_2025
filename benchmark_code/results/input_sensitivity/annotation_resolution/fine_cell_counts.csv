@@ -1,0 +1,9 @@
+strain_celltype,n_cells
+StrainA:CT1,500
+StrainA:CT2,500
+StrainA:CT3,500
+StrainA:CT4,500
+StrainB:CT1,500
+StrainB:CT2,500
+StrainB:CT3,500
+StrainB:CT4,500

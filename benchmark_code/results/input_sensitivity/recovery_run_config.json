@@ -1,0 +1,37 @@
+{
+  "seed": 123,
+  "permutations": 1000,
+  "draws": 16,
+  "permutation_rng": "SeedSequence([seed, permutation_index]); numpy.random.seed per task",
+  "parameters": {
+    "alpha": 0.05,
+    "celltype_psi_cutoff": 0.5,
+    "strain_celltype_psi_cutoff": 0.5,
+    "housekeeping_expression_cutoff": 1.0,
+    "ct1_block": "CT1",
+    "ct2_block": "CT2",
+    "strain_a_ct1_block": "StrainA:CT1",
+    "strain_b_ct2_block": "StrainB:CT2"
+  },
+  "versions": {
+    "anndata": "0.12.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.2",
+    "scanpy": "1.11.4"
+  },
+  "source_hashes": {
+    "run.py": "f58a1dcd989611d34e097cf0731bf0f2ccdb06a3384a389d9606ad8b748db716",
+    "generate_sim.py": "759e964ecb47986c875fd2d21f057e94e97d5a267828183a838d289b9ec58a64",
+    "ember_only_eval.py": "9e39e2120ab964234083f571d6c4e4bd152f3ab8c7ff389cc83089397920c3b8",
+    "ember_py/__init__.py": "2272522dabeb22ee57b4a87cff4c1965a266a14d2dd8bac9f6d874917bcd31e3",
+    "ember_py/__main__.py": "983b5c336e67d8e87738f4106bcf9e7582f187cfce098672c848099b4a0c5d6e",
+    "ember_py/cli.py": "73d42d3e9764bcf0c6c02b1b43b1d97f50090dc0234a892b6113b337020155cf",
+    "ember_py/generate_entropy_metrics.py": "45b246d611e42aed10178be508b3625da4b010107901bab359eb8394d1459044",
+    "ember_py/generate_pvals.py": "bb4c3af65b9d82c395253b9120368142852a3e610015c00c8d8326dea3abf763",
+    "ember_py/light_ember.py": "10c89acc90df20cbf523f1db663cab1a2ea1542f8a6c499f668bfe8d2ed195f5",
+    "ember_py/plots.py": "1e3a23e18f438f04e6680ace47d02cb77f4df732b5c671df7af7b3b2cced39c4",
+    "ember_py/sample_replicates.py": "ff09f217f25eb3d285109b1e7a84d84dbc1356fb4318059eabaf8cf7cf33bfd3",
+    "ember_py/top_genes.py": "a713f1be51b4cd427203eb2b8e92236814dd9fa4bc6562bfaa8e3cd3a78aecbf"
+  },
+  "base_sha256": "538561629e5b89d3d6cfad7386d240d88a6720de2a9350c059ff4716f6b2938a"
+}
